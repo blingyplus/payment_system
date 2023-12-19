@@ -1,0 +1,12 @@
+<!-- payments/templates/payments/payment_list.html -->
+
+{% extends 'payments/base.html' %}
+
+{% block content %}
+  <h2>Payment List</h2>
+  <ul>
+    {% for payment in payments %}
+      <li>{{ payment.amount }} - {{ payment.description }} - {{ payment.timestamp }} - {{ payment.customer.name }}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
