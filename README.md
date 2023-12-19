@@ -1,4 +1,3 @@
-Certainly! Below is a template for your GitHub README.md file. You can customize it according to your project details.
 
 ```markdown
 # Payment System
