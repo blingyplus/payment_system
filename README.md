@@ -1,5 +1,3 @@
-
-```markdown
 # Payment System
 
 This is a simple payment system implemented using Django, MongoDB, and JavaScript.
